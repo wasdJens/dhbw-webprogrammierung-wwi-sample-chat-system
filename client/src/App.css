@@ -1,0 +1,40 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.chat-header {
+}
+
+.chat-footer {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.chat-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: antiquewhite;
+  padding: 8px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px;
+}
+
+.header-status {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
